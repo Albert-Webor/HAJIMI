@@ -1,0 +1,48 @@
+# db_tool 数据库配置文件
+[db.uat_pgsql]
+type = "pgsql"
+host = "scbcbsdpsapg001uatdb.se.scb.co.th"
+port = 5432
+user = "readusr"
+password = "VCT28YL724egRVqgdx3y"
+database = "depositdb"
+schema = "deposit"
+
+[db.local_pgsql]
+type = "pgsql"
+host = "localhost"
+port = 5432
+user = "postgres"
+password = ""
+database = "depositdb"
+schema = "deposit"
+
+[db.uat_mysql]
+type = "mysql"
+host = "localhost"
+port = 3306
+user = "root"
+password = ""
+database = "mysql_db1"
+schema = ""
+
+[db.local_mysql]
+type = "mysql"
+host = "localhost"
+port = 3306
+user = "root"
+password = "123456"
+database = ""
+schema = ""
+
+[db.local_mssql]
+type = "mssql"
+host = "localhost"
+port = 1433
+user = "sa"
+password = "Scb@123456"
+database = "scbcbsdpsseaasqdb001uat"
+schema = "dbo"
+driver = "ODBC Driver 18 for SQL Server"
+trust_server_certificate = true
+
